@@ -9,6 +9,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
+    background:#1e1f24;
 }
 html {
     font-size: 62.5%;
@@ -19,7 +20,7 @@ body{
     font-family:Arial;
     font-size:16px;
     margin:0;
-    padding:0
+    padding:0;
 }
 #cabecera{
     background:#33a;
@@ -27,25 +28,29 @@ body{
     color:#fff;
     font-weight:700;
     margin:0;
-    padding:.5em
+    padding:.5em;
 }
 #cabecera #tagline{   
     background:#33a;
     padding:0 0 0 1em;
     font-weight:400;
-    font-size:.8em
+    font-size:0.8em;
+}
+#cabecera #logo {
+    width: 20px;
+    vertical-align: middle;
 }
 #container{
     width:70%;
     padding:0;
     text-align:left;
     border:1px solid #ddd;
-    margin:0 auto
+    margin:0 auto;
 }
-#container 
 h1{
-    font-size:20px
+    font-size:20px;
 }
 #post{
-    padding:1em
+    padding:1em;
+    background: white;
 }
